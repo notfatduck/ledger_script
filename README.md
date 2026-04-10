@@ -29,6 +29,5 @@ If you want the script to automatically remind people to pay, you need to link a
 4. Paste your actual Discord webhook link into the Value field and save. 
 
 ## Important
-* **Exact Math Required:** The script relies on clean math to work. If a person's rate is $20 a month, and they send $40, the script knows to check off two months. If they send $25, the script will reject it and log an error because it is not a clean multiple of their rate.
 * **Memory Cleanup:** The script remembers which emails it has already processed so it does not double-count payments. It clears this memory every 30 days to prevent your Google account from running out of storage space.
 * **Manual Adjustments:** If you ever need to manually adjust someone's timeline, you can just click the checkboxes in the `History` tab yourself. The `Summary` tab will automatically recalculate their balance based on the total number of checked boxes.
